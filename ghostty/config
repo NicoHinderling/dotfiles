@@ -1,0 +1,19 @@
+desktop-notifications = true
+# Prompt navigation (jump between commands)
+keybind = ctrl+shift+up=jump_to_prompt:-1
+keybind = ctrl+shift+down=jump_to_prompt:1
+# Mouse & Selection
+copy-on-select = clipboard
+mouse-scroll-multiplier = 2
+# Word navigation (Option+Arrow)
+keybind = alt+left=text:\x1bb
+keybind = alt+right=text:\x1bf
+# Pass Shift+Arrow to shell for zsh-shift-select plugin
+keybind = shift+left=unbind
+keybind = shift+right=unbind
+keybind = shift+up=unbind
+keybind = shift+down=unbind
+keybind = ctrl+shift+left=unbind
+keybind = ctrl+shift+right=unbind
+# Performance
+scrollback-limit = 100_000_000
